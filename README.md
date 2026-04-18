@@ -2,6 +2,16 @@
 
 Multi-language SDK for the SaaS Project CMS API. Provides project-scoped access to all CMS modules — blog, events, donations, orders, invoices, products, media, analytics, and more.
 
+> **IMPORTANT: Using Claude Code?** Clone the [SaaS Project Admin](https://github.com/siba-sakhaglobal/Saas_Project_Admin) repo instead — it includes a **Claude Code Skill file** that automatically teaches Claude about this entire platform. Just tell Claude what you want to build and it will set up the SDK, interview you about requirements, and build the frontend. See the [Admin repo README](https://github.com/siba-sakhaglobal/Saas_Project_Admin#build-your-own-website-with-claude-code) for example prompts.
+
+## Get API Credentials
+
+Before using the SDK, you need an API Key and Secret:
+
+1. Visit **https://sakhaglobal.com** and request a project
+2. You'll receive an API Key (`sk_live_...`) and Secret (`sec_...`)
+3. The key is scoped to one project — all data access goes through it
+
 ## Available SDKs
 
 | Language | Directory | Package Name | Status |
